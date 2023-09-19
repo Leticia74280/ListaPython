@@ -1,0 +1,10 @@
+class Teste:
+  def numero_par_ou_impar(numero):
+      numero = int(input('Informe um número inteiro qualquer: '))
+      if numero % 2 == 0:
+          print(f'O número {numero} é par')
+      else:
+          print(f'O número {numero} é impar')
+
+situacao_numero = Teste()
+numero_situacao = situacao_numero.numero_par_ou_impar()

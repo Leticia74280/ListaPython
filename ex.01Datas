@@ -1,0 +1,6 @@
+from datetime 
+import datetime, timedelta
+
+data_hoje = datetime.now()
+data_futura = data_hoje + timedelta(2)
+print(data_futura)
